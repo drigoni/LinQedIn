@@ -12,6 +12,7 @@ Ambiente di sviluppo: Qt Creator 3.0.1
 Il progetto e' stato costruito seguendo il pattern MVC, separando la model dalla view con l'ausilio di una classe di controllo.
 
 LinQedIn si puo' suddividere principalmente in 3 parti:
+
 	1. Login: Questa parte dell'applicazione permette ad un utente di loggarsi in LinQedIn tramite una apposita schermata. Il login pu' essere eseguito come Client, tramite email e password, o come Amministratore. Questa e' la prima finestra che appare quando il programma viene eseguito.
 	2. Parte amministrativa: Questa parte dell'applicazione permette:
 
