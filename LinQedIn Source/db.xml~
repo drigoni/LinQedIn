@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UsersList>
+    <User>
+        <password>4a8a08f09d37b73795649038408b5f33</password>
+        <name>Davide</name>
+        <surname>Rigoni</surname>
+        <email>davider1994@hotmail.it</email>
+        <age>12</age>
+        <gender>1</gender>
+        <country>Italia</country>
+        <city>Bassano</city>
+        <street>Rodeghieri</street>
+        <userType>FreeUser</userType>
+        <FriendsNetwork>
+            <friend>giulio.rigoni@alice.it</friend>
+            <friend>giulio.rigoni@hotmail.it</friend>
+        </FriendsNetwork>
+    </User>
+    <User>
+        <password>4a8a08f09d37b73795649038408b5f33</password>
+        <name>Gianni</name>
+        <surname>Rigoni</surname>
+        <email>giulio.rigoni@alice.it</email>
+        <age>18</age>
+        <gender>0</gender>
+        <country></country>
+        <city></city>
+        <street></street>
+        <userType>BusinessUser</userType>
+        <FriendsNetwork/>
+    </User>
+    <User>
+        <password>4a8a08f09d37b73795649038408b5f33</password>
+        <name>Giulio</name>
+        <surname>Rigoni</surname>
+        <email>giulio.rigoni@hotmail.it</email>
+        <age>18</age>
+        <gender>0</gender>
+        <country></country>
+        <city></city>
+        <street></street>
+        <userType>ExecutiveUser</userType>
+        <FriendsNetwork/>
+    </User>
+</UsersList>
