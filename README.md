@@ -1,6 +1,7 @@
 # LinQedIn
 
 Versione: Qt: 5.2.1
+
 Ambiente di sviluppo: Qt Creator 3.0.1
 
 
@@ -13,11 +14,14 @@ Il progetto e' stato costruito seguendo il pattern MVC, separando la model dalla
 LinQedIn si puo' suddividere principalmente in 3 parti:
 	1. Login: Questa parte dell'applicazione permette ad un utente di loggarsi in LinQedIn tramite una apposita schermata. Il login pu' essere eseguito come Client, tramite email e password, o come Amministratore. Questa e' la prima finestra che appare quando il programma viene eseguito.
 	2. Parte amministrativa: Questa parte dell'applicazione permette:
+
 		* Aggiungere o rimuovere utenti.
 		* Modificare il tipo di iscrizione a LinQedIn di un utente.
 		* Effettuare delle operazioni sul database.
 		* Cercare degli utenti tramite Nome,Cognome ed Email nel database.
+
 	3. Parte Client: Questa parte permette:
+
 		* Vedere e modificare le informazioni del proprio profilo.
 		* Vedere e modificare la propria rete delle amicizie.
 		* Cercare utenti in LinQedIn tramite delle opportune form.
@@ -35,11 +39,13 @@ Ogni classe grafica possiede i campi dati puntatori agli oggetti grafici nella s
 Ogni utente deriva direttamente o indirettamente dalla classe base astratta AUser, la quale rappresenta la struttura di un utente con le sue funzioni minime.
 
 Le classi derivate sono: 
+
 	* FreeUser che deriva direttamente da AUser.
 	* BusinessUser che deriva direttamente da AUser e si differenzia da FreeUser in quanto e' un utente a pagamento con una funzione di ricerca piu' avanzata.
 	* ExecutiveUser che deriva direttamente da BusinessUser in quanto anch'essa e' a pagamento e presenta una funzione di ricerca piu' avanzata di BusinessUser.
 
 La classe AUser presenta principlamente:
+
 	* Un campo dati pubblico puntatore ad un oggetto che rappresenta la lista degli amici.
 	* Un campo dati pubblico puntatore ad un oggetto profilo.
 	* Un campo dato privato che rappresenta la passwordCryptata.
